@@ -1,4 +1,5 @@
 
+import Navbar from "../Navbar";
 import Info from "./Info";
 
 
@@ -9,7 +10,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-black/60"></div>
         
         {/* Content */}
-        <div className="relative z-10 min-h-screen flex items-center justify-center">
+        <div className="relative z-10 min-h-screen flex items-center justify-center pb-35">
             <div className="w-[60%] max-auto">
                 <h1 className='text-5xl md:text-7xl font-bold leading-tight'>
                     COKER-GBOLAHAN 
@@ -44,6 +45,7 @@ const Home = () => {
                 <p className="electric-glow text-[18px] font-medium mt-5">P.S. For the best experience, check this out on a desktop!</p>
             </div>
         </div>
+        <Navbar />
     </div>
   )
 }
