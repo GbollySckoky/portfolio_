@@ -32,8 +32,9 @@ const Header = () => {
         {/* Right Side - Resume Link and Dark Mode Toggle */}
         <div className='flex items-center gap-6'>
           <a 
-            href='#resume' 
+            href='https://docs.google.com/document/d/1PlOy-6PjIOZTrZEg9isLnd2soZDSZ9hUc7LJjrOTSIs/edit?usp=sharing' 
             className='md:text-xl text-base font-semibold hover:text-gray-300 transition-colors'
+            target="_blank"
           >
             Résumé
           </a>

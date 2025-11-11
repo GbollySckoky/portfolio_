@@ -24,7 +24,7 @@ const Navbar = () => {
         </Link>
         <Link 
           to='/experience' 
-          className='text-xs md:text-sm lg:text-base font-medium hover:text-black hover:bg-white rounded-full px-3 md:px-4 lg:px-6 py-2 md:py-3 transition-all duration-300'
+          className='text-xs text-nowrap md:text-sm lg:text-base font-medium hover:text-black hover:bg-white rounded-full px-3 md:px-4 lg:px-6 py-2 md:py-3 transition-all duration-300'
         >
           Meet Gbolahan
         </Link>
