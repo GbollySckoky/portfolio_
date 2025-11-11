@@ -24,7 +24,7 @@ const Header = () => {
 
         {/* Center - Location and Time */}
         <div className='font'>
-          <span className='text-xl font-semibold font'>
+          <span className='md:text-xl text-base font-semibold font'>
             Lagos, NG | {getCurrentTime()}
           </span>
         </div>
@@ -33,7 +33,7 @@ const Header = () => {
         <div className='flex items-center gap-6'>
           <a 
             href='#resume' 
-            className='text-xl font-semibold hover:text-gray-300 transition-colors'
+            className='md:text-xl text-base font-semibold hover:text-gray-300 transition-colors'
           >
             Résumé
           </a>

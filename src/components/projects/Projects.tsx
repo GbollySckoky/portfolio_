@@ -155,7 +155,7 @@ const Projects = () => {
     <div className='min-h-screen py-30'>
       {/* Header */}
       <div className='w-[90%] mx-auto mb-12'>
-        <h1 className='text-4xl md:text-5xl font-bold text-white mb-4 font'>My Projects</h1>
+        <h1 className='text-3xl md:text-7xl font-bold text-white mb-4 font'>My Projects</h1>
         <p className='text-gray-400 text-lg'>A collection of my recent work and contributions</p>
       </div>
 

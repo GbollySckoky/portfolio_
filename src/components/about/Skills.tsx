@@ -10,7 +10,7 @@ const Skills = () => {
         <h1 className='text-5xl md:text-7xl font-bold leading-tight mt-15'>
            SKILLS
         </h1>
-        <div className="grid grid-cols-4 gap-5 mt-5">
+        <div className="grid md:grid-cols-4 grid-cols-2 gap-5 mt-5">
         {skills.map((skill, index) => (
             <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
@@ -20,7 +20,7 @@ const Skills = () => {
               delay: 0.5,
               ease: [0, 0.71, 0.2, 1.01]
             }} key={index}>
-            <p  className='border-2 rounded-full py-2 px-3 text-center font font-xl font-medium electric-glow '>{skill}</p>
+            <p  className='border-2 rounded-full py-2 px-3 text-center font md:text-xl font-medium electric-glow  text-nowrap'>{skill}</p>
             </motion.div>
         ))}
         </div>

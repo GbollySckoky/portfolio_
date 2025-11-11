@@ -10,13 +10,13 @@ const Home = () => {
         <div className="absolute inset-0 bg-black/60"></div>
         
         {/* Content */}
-        <div className="relative z-10 min-h-screen flex items-center justify-center pb-35">
-            <div className="w-[60%] max-auto">
+        <div className="relative z-10 flex items-center justify-center md:pt-30 pt-20 pb-40">
+            <div className="md:w-[60%] w-[90%] max-auto">
                 <h1 className='text-5xl md:text-7xl font-bold leading-tight'>
                     COKER-GBOLAHAN 
                 </h1>
                 <h1 className='text-5xl md:text-7xl font-bold leading-tight'>OPEYEMI</h1>
-                <p className="software-engineer-badge-animated text-xl md:text-2xl font-medium mt-6">
+                <p className="software-engineer-badge-animated text-base md:text-2xl font-medium mt-6 text-nowrap">
                     Frontend Developer
                 </p>
                 <div className="flex items-center gap-2 mt-6">
@@ -39,10 +39,10 @@ const Home = () => {
                             strokeWidth="1.5" 
                         />
                     </svg>
-                    <p className='text-lg font-medium'>Lagos, Nigeria</p>
+                    <p className='md:text-lg text-base font-medium'>Lagos, Nigeria</p>
                 </div>
                 <Info />
-                <p className="electric-glow text-[18px] font-medium mt-5">P.S. For the best experience, check this out on a desktop!</p>
+                <p className="electric-glow text-base md:ext-[18px] font-medium mt-5">P.S. For the best experience, check this out on a desktop!</p>
             </div>
         </div>
         <Navbar />
