@@ -1,5 +1,5 @@
 import Navbar from "../Navbar"
-// import Img from "./Img"
+import Img from "./Img"
 import Interest from "./Interest"
 import Skills from "./Skills"
 
@@ -27,7 +27,7 @@ const About = () => {
                     When I’m not coding, I enjoy playing games and listening to music they help me relax, recharge, and spark new ideas.
                 </p>
             </div>
-            {/* <Img /> */}
+            <Img />
             <Skills />
             <Interest />
         </div>
